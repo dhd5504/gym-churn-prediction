@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data (Ignore all large data files)
+Data/
+data_analysis/
+# dataMaster/ (Keep this to share with group, size is small ~0.5MB)
+data_samples/
+*.csv
+*.RData
+*.parquet
+!dataMaster/*.csv
+*.zip
+*.gz
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+/Code
