@@ -96,6 +96,8 @@ master = master.drop_duplicates(subset=['short_p_id'])
 master['income'] = master['income'].fillna(master['income'].median())
 master['age'] = master['age'].fillna(master['age'].median())
 master['gender'] = master['gender'].fillna('U') # Unknown
+master['main_density_class'] = master['main_density_class'].fillna('U') # Unknown
+master['population_density_sq_mi'] = master['population_density_sq_mi'].fillna(master['population_density_sq_mi'].median())
 
 # 5. Export
 print(f"Exporting Master Dataset to {OUTPUT_PATH}...")
