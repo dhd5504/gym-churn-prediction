@@ -8,3 +8,5 @@ fastparquet
 scikit-learn
 scipy
 jupyter
+jinja2
+xgboost

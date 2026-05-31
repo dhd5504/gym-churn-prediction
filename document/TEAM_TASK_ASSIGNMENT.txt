@@ -1,0 +1,40 @@
+======================================================================
+📢 BẢNG PHÂN CÔNG VÀ QUY TRÌNH LÀM VIỆC NHÓM (Gym Churn Prediction)
+======================================================================
+
+Chào cả nhóm! Trưởng nhóm đã cấu trúc sẵn bộ dữ liệu sạch và chuẩn bị file Template huấn luyện mô hình chuẩn để cả nhóm chúng ta chạy song song. 
+
+Dưới đây là quy trình 5 bước cực kỳ ngắn gọn để mọi người bắt tay vào làm ngay:
+
+---
+
+📌 BƯỚC 1: LẤY CODE MỚI NHẤT VỀ MÁY
+- Mở Terminal lên, gõ lệnh sau để cập nhật toàn bộ thư mục dự án mới nhất về máy:
+  git pull origin main
+
+📌 BƯỚC 2: ĐỌC TÀI LIỆU HƯỚNG DẪN CHI TIẾT
+- Mở và đọc kỹ file hướng dẫn phân công tại: 
+  [Thư mục dự án]/document/TEAM_MODELING_GUIDE.md
+- File này đã ghi rõ phân công mô hình cho từng người, các siêu tham số (Hyperparameters) cần Grid Search và các lưu ý kỹ thuật riêng.
+
+📌 BƯỚC 3: TẠO FILE LÀM VIỆC RIÊNG
+- Vào thư mục `notebooks`, copy file `05_Modeling_Template.ipynb` thành file riêng của mình để tránh bị xung đột code khi đẩy lên Github.
+- Ví dụ đặt tên: 
+  + 05A_RandomForest_Nam.ipynb
+  + 05B_XGBoost_Vy.ipynb
+  + 05C_SVM_Long.ipynb
+  + 05D_MLP_Anh.ipynb
+
+📌 BƯỚC 4: HUẤN LUYỆN & TINH CHỈNH MÔ HÌNH
+- Tuyệt đối giữ nguyên PHẦN 1, PHẦN 2, PHẦN 3 trong file Notebook.
+- Chỉ viết code xây dựng, chạy Grid Search và đánh giá mô hình của mình ở PHẦN 4.
+- Đích cần vượt qua (Baseline): Macro F1-Score phải lớn hơn 0.5519.
+
+📌 BƯỚC 5: CHỤP ẢNH KẾT QUẢ & GỬI LẠI TRƯỞNG NHÓM
+- Sau khi chạy xong, hãy gửi lại cho Trưởng nhóm các mục sau trước ngày [Điền ngày]:
+  1. File notebook cá nhân của bạn (file đuôi .ipynb).
+  2. Ảnh chụp bảng kết quả (Classification Report) và Confusion Matrix.
+  3. Bộ tham số tốt nhất (Best Params) tìm được sau khi Grid Search.
+
+---
+Cố lên cả nhóm ơi! Làm xong sớm chúng ta sẽ tổng hợp kết quả vẽ biểu đồ so sánh cực đẹp để nộp báo cáo lấy điểm A+!
